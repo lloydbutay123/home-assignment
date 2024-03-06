@@ -1,3 +1,9 @@
+@media (prefers-reduced-motion:no-preference ) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
 @font-face {
     font-family: poppins;
     src: url("./Poppins (2)/Poppins-Regular.ttf");
@@ -14,8 +20,8 @@ body {
     position: fixed;
     transition: 1s ease-out;
     background-color: transparent;
-    width: 100%;
     height: 100px;
+    width: 100%;
 }
 .nav--hidden {
     transform: translateY(calc(-2 * var(--nav-height)));
@@ -32,7 +38,7 @@ body {
     margin-right:10px;
     align-items: center;
     font-size: 12px;
-    position: relative;
+
 }
 .navbar-brand {
     display: flex;
@@ -70,6 +76,7 @@ body {
     width: 100%;
     height: 10vh;
     background-color: #43766C;
+    overflow : hidden;
 }
 
 .search-container form {
@@ -388,6 +395,16 @@ body {
     margin-right: 50px;
     width: 60px;
     color: #43766C;
+}
+
+@media screen and (max-width : 540px) {
+
+    
+#main-page h1 {
+    font-size: 50px;
+}
+
+    
 }
 
 
