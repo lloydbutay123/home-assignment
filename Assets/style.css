@@ -216,7 +216,7 @@ body {
 
 .buying-content {
     background: rgb(0, 0, 0, 0.7);
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .service-bg-image img {
@@ -225,7 +225,7 @@ body {
 
 .service-content {
     padding: 2rem;
-}
+}.service-content h1{ margin-bottom: 2rem;}
 
 .strategy-bg-image img {
     width: 100%;
@@ -237,12 +237,9 @@ body {
 .exposures-content {
     text-align: center;
 }
-.exposures-content h1 {
-    margin: 20px;
-    
-}
+
 .title {
-    margin: 20px;
+    margin-bottom: 20px;
     font-weight: bold;  
 }
 
@@ -426,6 +423,12 @@ text-align: center;
 }
 .developed-by {
 text-align: center;
+}
+.col-lg-4 {
+    padding: 1rem;
+}
+.plans-content {
+    border: none;
 }
 
 
