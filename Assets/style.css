@@ -237,7 +237,9 @@ body {
 .exposures-content {
     text-align: center;
 }
-
+.exposures-content h1 {
+    margin-bottom: 3rem;
+}
 .title {
     margin-bottom: 20px;
     font-weight: bold;  
@@ -254,15 +256,11 @@ body {
 
 .res-sponsors {
     text-align: center;
-    margin-top: 2rem;
+  
 }
 .res-sponsors img {
     margin: 0 20px 0 20px;
     
-}
-
-.sponsors-content {
-    padding: 3rem;
 }
 
 .sponsors-content p {
@@ -419,6 +417,7 @@ margin-bottom: 2rem;
 }
 .sponsors-content {
 text-align: center;
+padding: 2rem;
     
 }
 .developed-by {
