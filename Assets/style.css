@@ -1,0 +1,395 @@
+@font-face {
+    font-family: poppins;
+    src: url("./Poppins (2)/Poppins-Regular.ttf");
+}
+
+body {
+    font-family: poppins;
+}
+
+.row * {
+    padding: 0;
+}
+.navbar {
+    position: fixed;
+    transition: 1s ease-out;
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+}
+.nav--hidden {
+    transform: translateY(calc(-2 * var(--nav-height)));
+    box-shadow: none;
+}
+.black {
+    background-color: black;
+    z-index: 900;
+}
+
+.navbar-nav > li {
+    display: flex;
+    margin-left:10px;
+    margin-right:10px;
+    align-items: center;
+    font-size: 12px;
+    position: relative;
+}
+.navbar-brand {
+    display: flex;
+    height: 30px;
+    position: relative;
+}
+.nav-link {
+    color: white;   
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;   
+    background: #F8FAE5;
+    left: 0;
+    bottom: 0;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+.nav-link:hover::after {
+    transform: scale(1, 1);
+
+}
+
+.search-container {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #43766C;
+}
+
+.search-container form {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+.search-container input {
+    width: 500px;
+    background-color: #43766C;
+    border: none;
+}
+.search-container input::placeholder {
+    color: white;
+}
+.search-container input:focus {
+    box-shadow: none;
+    background-color: #43766C;
+    color: white;
+}
+.search-container i{
+    font-size: 20px;
+    color: white;
+    margin: 1rem;
+    cursor: pointer;
+}
+.search-container a{
+    text-decoration: none
+}
+#main-page {
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/962/636/963/design-sofa-chairs-modern-wallpaper-6f38c8800a2a34b9bc8e8a384eabf32c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F8FAE5
+}
+
+
+#main-page h1 {
+    font-size: 100px;
+}
+
+.marketing-plan-content {
+    padding: 0 4rem 0 4rem;
+}
+
+.marketing-plan-title{
+    margin-top: 4rem;
+}
+.services-img {
+    width: 200px;
+}
+
+.fa-regular, .fa-solid {
+    font-size: 100px;
+    color: #43766C;
+    margin: 3rem 0 3rem 0;
+}
+.decor {
+    height: 55vh;
+    background-color: #76453B;
+    padding: 0;
+    margin: 0;
+    color: #F8FAE5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.decor-img img{
+    width: 100%;
+}
+.staging-img img {
+    width: 100%;
+}
+
+.staging-content {
+    padding: 30px;
+}
+
+.staging-content > ul {
+    margin-left: 30px;
+}
+
+
+.staging-content > ul >li {
+    padding-top:20px;
+
+
+}
+.intentional-img img {
+    width: 100%;
+}
+
+.uncutter-img img {
+    width: 100%;
+}
+
+.plans {
+    background-image: url(https://c0.wallpaperflare.com/path/950/447/755/lifestyle-simple-plain-basic-154406a717975ceef0bdcd125b5e5586.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: 5rem;
+}
+
+.setion-main {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5rem;
+}
+.section-title {
+    color: white;
+    margin-bottom: 5rem;
+}
+.col-lg-4 {
+    padding: 2rem;
+}
+.plans-content {
+    border-right: 2px solid white;
+}
+
+.buying-section {
+    background-image: url(https://images.pexels.com/photos/8068654/pexels-photo-8068654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.buying-content {
+    background: rgb(0, 0, 0, 0.7);
+    padding: 3rem;
+}
+
+.service-bg-image img {
+    width: 100%;
+}
+
+.service-content {
+    padding: 2rem;
+}
+
+.strategy-bg-image img {
+    width: 100%;
+}
+
+.client-bg-image img {
+    width: 100%;
+}
+.exposures-content {
+    text-align: center;
+}
+.exposures-content h1 {
+    margin: 20px;
+    
+}
+.title {
+    margin: 20px;
+    font-weight: bold;  
+}
+
+.sponsors img {
+    width: 400px;
+    text-align: center;
+}
+
+.img-fluid {
+    width: 100px;
+}
+
+.res-sponsors {
+    text-align: center;
+
+}
+.res-sponsors img {
+    margin: 0 20px 0 20px;
+    
+}
+
+.sponsors-content {
+    padding: 3rem;
+}
+
+.sponsors-content p {
+    margin-bottom: 30px;
+}
+
+.sponsors-img img {
+    width: 100%;
+
+}
+
+.global-img img {
+    width: 100%;
+
+}
+
+.mapping {
+    padding: 0 2rem 0 2rem;
+}
+
+.mapping img {
+    width: 200px;
+}
+
+.mapping-img {
+    width: 70%;
+
+}
+
+.contact-us {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/59/97/72/design-sofa-furniture-watch-wallpaper-14e0b237fc757af8f78adaf96fb1e47a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-us-content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background: rgb(0, 0, 0, 0.5);
+    text-align: center;
+}
+.contact-us-content p{
+    padding: 5rem 5rem 0 5rem;
+    color: white;
+}
+
+.contact-us-content > hr{
+    border: 3px solid white;
+    width: 100px;
+    margin-top: 5rem;
+}
+
+.contact-us-content button{ 
+    border-radius: 0%;
+    border: 2px solid white;
+    color: white;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+.contact-us-content button:hover{ 
+    color: black;
+    background-color: white;
+
+}
+.address-container {
+    padding: 3rem;
+}
+.address-info {
+    padding: 2rem;
+}
+
+.address-container .form-control {
+    height: 40px;
+    padding: 10px;
+    border-radius: 0;
+    border-bottom:0.5px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.address-container h1 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.address-info h6 {
+    font-weight: bold;
+}
+.address-container button {
+    margin-top: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 0;
+    background-color: #43766C;
+    color: white;
+    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 0 #76453B;
+}
+.address-container button:hover {
+    box-shadow: inset 200px 0 0 0 #76453B;
+    color: white;
+}
+.socials {
+    padding: 1rem 2rem 2rem 0;
+    font-size: 50px;
+    color: #43766C;
+}
+.socials i:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.socials a {
+    color: inherit
+}
+
+.partners {
+    padding: 1rem 2rem 2rem 0;
+    font-size: 50px;
+    color: #43766C;
+
+}
+
+.developed-by a {
+    color: black;
+}
+.copy-right > .partners img {
+    margin-right: 50px;
+    width: 60px;
+    color: #43766C;
+}
+
+
+
+
