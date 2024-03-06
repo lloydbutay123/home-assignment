@@ -262,9 +262,14 @@ body {
     margin: 0 20px 0 20px;
     
 }
+.sponsors-content {
+padding: 3rem;
+
+}
 
 .sponsors-content p {
     margin-bottom: 30px;
+  
 }
 
 .sponsors-img img {
@@ -376,7 +381,7 @@ body {
     color: white;
 }
 .socials {
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 0;
     font-size: 50px;
     color: #43766C;
 }
@@ -389,7 +394,7 @@ body {
 }
 
 .partners {
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 0;
     font-size: 50px;
     color: #43766C;
 
@@ -408,7 +413,8 @@ body {
 
     
 #main-page h1 {
-    font-size: 50px;
+    font-size: 80px;
+    color: #F8FAE5
 }
 .res-sponsors img {
 text-align: center;
@@ -428,6 +434,13 @@ text-align: center;
 }
 .plans-content {
     border: none;
+}
+
+#main-page {
+    background-image: url(https://images.unsplash.com/photo-1604782206219-3b9576575203?q=80&w=1897&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F8FAE5
 }
 
 
