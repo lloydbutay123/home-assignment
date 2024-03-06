@@ -122,7 +122,11 @@ body {
 }
 
 .marketing-plan-content {
-    padding: 0 4rem 0 4rem;
+    padding: 0 2rem 0 2rem;
+}
+.marketing-plan-content h4 {
+    margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 .marketing-plan-title{
@@ -138,7 +142,7 @@ body {
     margin: 3rem 0 3rem 0;
 }
 .decor {
-    height: 55vh;
+
     background-color: #76453B;
     padding: 0;
     margin: 0;
